@@ -6,6 +6,7 @@ namespace Form_Parameter_MVC_App.Controllers
     {
 
         //Passing Data using Form Collection to view
+        [HttpPost]
         public IActionResult Index(IFormCollection data)
         {
             ViewBag.pid = data["productId"];
