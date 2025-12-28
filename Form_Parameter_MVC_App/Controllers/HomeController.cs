@@ -28,6 +28,7 @@ namespace Form_Parameter_MVC_App.Controllers
         //    return "Name: " + name + " Age: " + age + " Gender: " + gender;
         //}
 
+        //Passing data through parameters to View using ViewBag
         public IActionResult ShowData(string name, string age, string gender)
         {
             ViewBag.Name = name;
